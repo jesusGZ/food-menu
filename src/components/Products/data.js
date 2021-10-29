@@ -10,17 +10,17 @@ export const productData = [
     img: product1,
     alt: 'Pizza',
     name: 'Pizza Suprema',
-    desc: '.................',     
+    desc: '.................',
     price: '€19.99',
-    button: 'Añadir al carrito'
+    button: 'Añadir al carrito',
   },
   {
     img: product2,
     alt: 'Pizza',
     name: 'Paraíso hawaiano',
     desc: '.................',
-     price: '€16.99',
-    button: 'Añadir al carrito'
+    price: '€16.99',
+    button: 'Añadir al carrito',
   },
   {
     img: product3,
@@ -28,8 +28,8 @@ export const productData = [
     name: 'Sobrecarga de verduras',
     desc: '.................',
     price: '€14.99',
-    button: 'Añadir al carrito'
-  }
+    button: 'Añadir al carrito',
+  },
 ];
 
 export const productDataTwo = [
@@ -37,27 +37,24 @@ export const productDataTwo = [
     img: sweet2,
     alt: 'Donas',
     name: 'Rica dona',
-    desc:
-      'Donas glaseadas de chocolate belga cubiertas de glaseado con chispitas en la parte superior',
+    desc: 'Donas glaseadas de chocolate belga cubiertas de glaseado con chispitas en la parte superior',
     price: '€9.99',
-    button: 'Añadir al carrito'
+    button: 'Añadir al carrito',
   },
   {
     img: sweet3,
     alt: 'Helado',
     name: 'Caramelo Maravilla',
-    desc:
-      'Vhelado de vainilla cubierto con glaseado de caramelo y chocolate cubierto con una barra de coco',
+    desc: 'Vhelado de vainilla cubierto con glaseado de caramelo y chocolate cubierto con una barra de coco',
     price: '€12.99',
-    button: 'Añadir al carrito'
+    button: 'Añadir al carrito',
   },
   {
     img: sweet1,
     alt: 'Brownie',
     name: 'Brownie Bunch',
-    desc:
-      'Cuadritos de brownie de chocolate blanco cubiertos con trozos de chocolate blanco y nueces de macadamia',
+    desc: 'Cuadritos de brownie de chocolate blanco cubiertos con trozos de chocolate blanco y nueces de macadamia',
     price: ' €9.99',
-    button: 'Añadir al carrito'
-  }
+    button: 'Añadir al carrito',
+  },
 ];

@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin
-} from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import {
   FooterContainer,
   FooterWrap,
@@ -11,7 +7,7 @@ import {
   SocialMediaWrap,
   SocialLogo,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
 } from './FooterElements';
 
 const Footer = () => {
@@ -20,15 +16,15 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>Food Menu</SocialLogo>
+            <SocialLogo to="/">Food Menu</SocialLogo>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
